@@ -12,7 +12,9 @@
     
     
 }
-
+body{
+    font-family: Kumbh Sans;
+}
 .container{
     width: 60vw;
     height: 80vw;
@@ -107,6 +109,11 @@
     color:  hsl(26, 100%, 55%);
     
 
+}
+
+.text h3{
+    font-style: bold;
+    font-size: 30px;
 }
 
 .pricing {
