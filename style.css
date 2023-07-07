@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.container{
+    width: 60vw;
+    height: 80vw;
+    
+
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 0px;
+    
+    
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.navigation h2 {
+    font-family: Kumbh Sans;
+    font-weight: 700;
+}
+
+.navbar img{
+    width: 30px;
+}
+
+
+.navbar h2{
+    padding-right:30px ;
+}
+
+.rest{
+    display: flex;
+    gap: 30px;
+    color: hsl(219, 9%, 45%) ;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar h5{
+    margin: 0px, 15px, 0px 15px;
+}
+
+#main-img{
+    width: 30vw;
+    border-radius: 10px;
+}
+
+.body-section{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+
+.content{
+    height: 70vh;
+    width: 70vh;
+}
+.wording{
+    display: flex;
+    flex-direction: column;
+    
+    /* align-items: baseline; */
+    /* align-content: space-around; */
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    height: 100%;
+    margin-top: 50px;
+    gap: 20px;
+  }
+
+.text p{
+    color: hsl(219, 9%, 45%);
+}
+
+.text h5{
+    color:  hsl(26, 100%, 55%);
+    
+
+}
+
+.pricing {
+    display: flex;
+    flex-direction: column;  
+    margin-top: 30px; 
+}
+
+.price-now{
+    display: flex;
+    flex-direction: row;
+}
+  
+.images{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.thumbs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30vw;
+}
+.thumbs img{
+    width: 50px;
+    border-radius: 10px;
+    
+}
+
+.boxbutton{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.count{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    height: 20px;
+    border: 0;
+    
+    
+
+}
+
+.pricing p{
+    color: hsl(219, 9%, 45%);
+}
+
+#add-to-cart{
+    background-color: hsl(26, 100%, 55%) ;
+    color: hsl(0, 0%, 100%);
+    border: 0;
+    border-width: 30px;
+    padding: 10px 30px 10px 30px;
+    
+    
+}
+
+.boxbutton{
+    margin-top: 30px;
+}
